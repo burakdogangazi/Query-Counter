@@ -1,0 +1,79 @@
+body{
+
+    background: linear-gradient(to bottom right,rgb(3,252,182),rgb(255,255,255));
+    background-attachment: fixed;
+    
+}
+
+button{
+    width: 15%;
+    height: 50px;
+    border-radius: 30%;
+    background-color: rgb(29, 202, 13);
+
+    font-weight: bolder;
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+
+
+.flex-container{
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: center;
+
+    align-items: center;
+
+    margin-top: 5%;
+
+    font-size:1.5rem;
+    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#increment{
+
+   
+    transition: width 1s, height 1s, background-color 1s, transform 1s;
+}
+
+
+
+#increment:hover{
+
+   background-color: dodgerblue;
+   width: 25%;
+   height: 85px;
+   font-size: 80%;
+
+}
+
+#reset{
+
+    background-color: fuchsia;
+    border-radius: 30%;
+    margin-top: 5%;
+    height: 50px;
+    width: 15%;
+    margin-bottom: 20px;
+
+}
+
+#reset:hover{
+    background-color: gold;
+}
+
+#saveString{
+    margin-top: 10px;
+    font-weight: bolder;
+    font-size: 30px;
+    font-family: monospace;
+}
+
+#save{
+    background-color: rgb(111, 0, 255);
+    color: lavender;
+}
+
